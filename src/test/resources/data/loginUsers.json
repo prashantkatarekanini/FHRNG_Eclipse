@@ -1,0 +1,24 @@
+{
+	"validUser":{
+			"username":"FHRNGDev1",
+			"password":"h91PoWb="
+		}	,		
+			"CCN1":{
+			"CCNName": "CCN 33-2563"
+		}	,
+	
+			"CCN2":{
+			"CCNName": "CCN 68-2563"
+		}	,
+		
+				"EnterYes":{
+			"Yes": "Y"
+		},
+				"EnterNo":{
+			"No": "N"
+		},
+				"EnterNumber":{
+			"Num": "123"
+		}				
+
+}
