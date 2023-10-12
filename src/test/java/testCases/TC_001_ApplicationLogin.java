@@ -83,6 +83,8 @@ public class TC_001_ApplicationLogin extends BaseClass  {
 		loginPage.SetUserName(loginUsers.getJSONObject("validUser").getString("username"));
 		loginPage.SetPasswordName(loginUsers.getJSONObject("validUser").getString("password"));
 		loginPage.clickSubmit();
+		
+		System.out.println("Login is done");
 
 		String ActualResult = driver.getTitle();
 		String ExpectedResult = "FHR NextGen";
